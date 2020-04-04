@@ -9,3 +9,4 @@ RUN mkdir ~/temp &&\
   ./bootstrap && make -j4 &&\
   make install
 
+WORKDIR /workdir
